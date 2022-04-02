@@ -4,8 +4,8 @@ import uuid
 from .exceptions import YggdrasilError
 
 #: The base url for Ygdrassil requests
-AUTH_SERVER = "https://authserver.mojang.com"
-SESSION_SERVER = "https://sessionserver.mojang.com/session/minecraft"
+AUTH_SERVER = "https://auth.fdc.hath.top/api/yggdrasil"
+SESSION_SERVER = "https://auth.fdc.hath.top/api/yggdrasil/sessionserver/session/minecraft"
 # Need this content type, or authserver will complain
 CONTENT_TYPE = "application/json"
 HEADERS = {"content-type": CONTENT_TYPE}
